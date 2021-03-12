@@ -1,5 +1,7 @@
-from jobs_parser import job_parser, HHParser
+import sys
+sys.path.insert(0, '..')
 
+from jobs_parser import job_parser, HHParser
 
 df = job_parser(save=True, format='csv')
 
