@@ -2,7 +2,7 @@
 Methods for collecting and processing data from the Internet: parsing, scraping, crawling  
   
 Required structure:  
-  
+<pre> 
 Internet_Data_Collection_and_Processing  
 ├───job_sites_parser  
 │   │   .env  
@@ -19,3 +19,4 @@ Internet_Data_Collection_and_Processing
     │   parse_jobs_to_mongo.py  
     └───to_mongo_tests.py  
   
+</pre>
