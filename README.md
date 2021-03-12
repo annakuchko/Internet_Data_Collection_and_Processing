@@ -4,9 +4,9 @@ Methods for collecting and processing data from the Internet: parsing, scraping,
 Required structure:
 
 Internet_Data_Collection_and_Processing
-├───job_sites_parser
-│   │   .env
-│   │   .gitignore
+├───job_sites_parser\n
+│   │   .env\n
+│   │   .gitignore\n
 │   │   jobs_parser.py
 │   │   parser_global_variables.py
 │   │   parser_template_class.py
