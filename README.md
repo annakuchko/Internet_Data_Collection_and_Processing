@@ -4,6 +4,7 @@ Methods for collecting and processing data from the Internet: parsing, scraping,
 Required structure:  
 <pre> 
 Internet_Data_Collection_and_Processing  
+│  
 ├───job_sites_parser  
 │   │   .env  
 │   │   .gitignore  
