@@ -1,3 +1,6 @@
+import sys
+sys.path.insert(0, '..')
+
 import datetime
 from dotenv import load_dotenv
 import os
