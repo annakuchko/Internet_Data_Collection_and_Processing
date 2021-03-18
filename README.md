@@ -14,10 +14,14 @@ Internet_Data_Collection_and_Processing
 │   │   parser_tests.py  
 │   └───README.md  
 │  
-└───parse_to_mongo  
-    │   filter_on_salary.py  
-    │   mongo_global_variables.py  
-    │   parse_jobs_to_mongo.py  
-    └───to_mongo_tests.py  
+├───parse_to_mongo  
+│   │   filter_on_salary.py  
+│   │   mongo_global_variables.py  
+│   │   parse_jobs_to_mongo.py  
+│   └───to_mongo_tests.py
+│
+└───news_parser
+    │   news_parser.py  
+    └───news_parser_tests.py
 
 </pre>
