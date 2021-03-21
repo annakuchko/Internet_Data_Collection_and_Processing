@@ -1,0 +1,141 @@
+2021-03-21 22:52:52 [scrapy.utils.log] INFO: Scrapy 2.4.1 started (bot: jobparser)
+2021-03-21 22:52:52 [scrapy.utils.log] INFO: Versions: lxml 4.6.2.0, libxml2 2.9.10, cssselect 1.0.3, parsel 1.5.2, w3lib 1.21.0, Twisted 21.2.0, Python 3.8.3 (default, Jul  2 2020, 17:30:36) [MSC v.1916 64 bit (AMD64)], pyOpenSSL 20.0.1 (OpenSSL 1.1.1j  16 Feb 2021), cryptography 3.3.1, Platform Windows-10-10.0.19041-SP0
+2021-03-21 22:52:52 [scrapy.crawler] INFO: Overridden settings:
+{'BOT_NAME': 'jobparser',
+ 'CONCURRENT_REQUESTS_PER_DOMAIN': 16,
+ 'CONCURRENT_REQUESTS_PER_IP': 16,
+ 'DOWNLOAD_DELAY': 0.25,
+ 'LOG_FILE': 'parser_logs.txt',
+ 'LOG_LEVEL': 'INFO',
+ 'NEWSPIDER_MODULE': 'jobparser.spiders',
+ 'REDIRECT_ENABLED': False,
+ 'SPIDER_MODULES': ['jobparser.spiders'],
+ 'USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 '}
+2021-03-21 22:52:52 [scrapy.extensions.telnet] INFO: Telnet Password: d4537abf71dece81
+2021-03-21 22:52:52 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2021-03-21 22:52:53 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2021-03-21 22:52:53 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2021-03-21 22:52:53 [scrapy.middleware] INFO: Enabled item pipelines:
+['jobparser.pipelines.JobparserPipeline']
+2021-03-21 22:52:53 [scrapy.core.engine] INFO: Spider opened
+2021-03-21 22:52:53 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2021-03-21 22:52:53 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2021-03-21 22:52:53 [scrapy.crawler] INFO: Overridden settings:
+{'BOT_NAME': 'jobparser',
+ 'CONCURRENT_REQUESTS_PER_DOMAIN': 16,
+ 'CONCURRENT_REQUESTS_PER_IP': 16,
+ 'DOWNLOAD_DELAY': 0.25,
+ 'LOG_FILE': 'parser_logs.txt',
+ 'LOG_LEVEL': 'INFO',
+ 'NEWSPIDER_MODULE': 'jobparser.spiders',
+ 'REDIRECT_ENABLED': False,
+ 'SPIDER_MODULES': ['jobparser.spiders'],
+ 'USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 '}
+2021-03-21 22:52:53 [scrapy.extensions.telnet] INFO: Telnet Password: 4b8e86ca8b0d0ed4
+2021-03-21 22:52:53 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2021-03-21 22:52:53 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2021-03-21 22:52:53 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2021-03-21 22:52:53 [scrapy.middleware] INFO: Enabled item pipelines:
+['jobparser.pipelines.JobparserPipeline']
+2021-03-21 22:52:53 [scrapy.core.engine] INFO: Spider opened
+2021-03-21 22:52:53 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2021-03-21 22:52:53 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6024
+2021-03-21 22:52:58 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <301 https://www.superjob.ru/vacancy/search/?keywords=%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D1%82%D0%B8%D0%BA&geo%5Bt%5D%5B0%5D=4&cluster=35895661>: HTTP status code is not handled or not allowed
+2021-03-21 22:52:58 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <301 https://www.superjob.ru/vacancy/search/?keywords=%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D1%82%D0%B8%D0%BA&geo%5Bt%5D%5B0%5D=4&cluster=36164293>: HTTP status code is not handled or not allowed
+2021-03-21 22:53:03 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <301 https://www.superjob.ru/vacancy/search/?keywords=%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D1%82%D0%B8%D0%BA&geo%5Bt%5D%5B0%5D=4&cluster=36256257>: HTTP status code is not handled or not allowed
+2021-03-21 22:53:05 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <301 https://www.superjob.ru/vacancy/search/?keywords=%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D1%82%D0%B8%D0%BA&geo%5Bt%5D%5B0%5D=4&cluster=35400311>: HTTP status code is not handled or not allowed
+2021-03-21 22:53:06 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <301 https://www.superjob.ru/vacancy/search/?keywords=%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D1%82%D0%B8%D0%BA&geo%5Bt%5D%5B0%5D=4&cluster=36259474>: HTTP status code is not handled or not allowed
+2021-03-21 22:53:07 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <301 https://www.superjob.ru/vacancy/search/?keywords=%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D1%82%D0%B8%D0%BA&geo%5Bt%5D%5B0%5D=4&cluster=35653985>: HTTP status code is not handled or not allowed
+2021-03-21 22:53:07 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <301 https://www.superjob.ru/vacancy/search/?keywords=%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D1%82%D0%B8%D0%BA&geo%5Bt%5D%5B0%5D=4&cluster=35729447>: HTTP status code is not handled or not allowed
+2021-03-21 22:53:11 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <301 https://www.superjob.ru/vacancy/search/?keywords=%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D1%82%D0%B8%D0%BA&geo%5Bt%5D%5B0%5D=4&cluster=36156846>: HTTP status code is not handled or not allowed
+2021-03-21 22:53:13 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <301 https://www.superjob.ru/vacancy/search/?keywords=%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D1%82%D0%B8%D0%BA&geo%5Bt%5D%5B0%5D=4&cluster=36425652>: HTTP status code is not handled or not allowed
+2021-03-21 22:53:14 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <301 https://www.superjob.ru/vacancy/search/?keywords=%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D1%82%D0%B8%D0%BA&geo%5Bt%5D%5B0%5D=4&cluster=36333860>: HTTP status code is not handled or not allowed
+2021-03-21 22:53:15 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <301 https://www.superjob.ru/vacancy/search/?keywords=%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D1%82%D0%B8%D0%BA&geo%5Bt%5D%5B0%5D=4&cluster=12152346>: HTTP status code is not handled or not allowed
+2021-03-21 22:53:17 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <301 https://www.superjob.ru/vacancy/search/?keywords=%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D1%82%D0%B8%D0%BA&geo%5Bt%5D%5B0%5D=4&cluster=35583105>: HTTP status code is not handled or not allowed
+2021-03-21 22:53:27 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <301 https://www.superjob.ru/vacancy/search/?keywords=%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D1%82%D0%B8%D0%BA&geo%5Bt%5D%5B0%5D=4&cluster=34930947>: HTTP status code is not handled or not allowed
+2021-03-21 22:53:28 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <301 https://www.superjob.ru/vacancy/search/?keywords=%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D1%82%D0%B8%D0%BA&geo%5Bt%5D%5B0%5D=4&cluster=36389834>: HTTP status code is not handled or not allowed
+2021-03-21 22:53:29 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <301 https://www.superjob.ru/vacancy/search/?keywords=%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D1%82%D0%B8%D0%BA&geo%5Bt%5D%5B0%5D=4&cluster=36211378>: HTTP status code is not handled or not allowed
+2021-03-21 22:53:30 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <301 https://www.superjob.ru/vacancy/search/?keywords=%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D1%82%D0%B8%D0%BA&geo%5Bt%5D%5B0%5D=4&cluster=32380682>: HTTP status code is not handled or not allowed
+2021-03-21 22:53:32 [scrapy.core.engine] INFO: Closing spider (finished)
+2021-03-21 22:53:32 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 56407,
+ 'downloader/request_count': 117,
+ 'downloader/request_method_count/GET': 117,
+ 'downloader/response_bytes': 11368889,
+ 'downloader/response_count': 117,
+ 'downloader/response_status_count/200': 101,
+ 'downloader/response_status_count/301': 16,
+ 'elapsed_time_seconds': 39.029148,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2021, 3, 21, 18, 53, 32, 628176),
+ 'httperror/response_ignored_count': 16,
+ 'httperror/response_ignored_status_count/301': 16,
+ 'item_scraped_count': 96,
+ 'log_count/INFO': 26,
+ 'request_depth_max': 5,
+ 'response_received_count': 117,
+ 'scheduler/dequeued': 117,
+ 'scheduler/dequeued/memory': 117,
+ 'scheduler/enqueued': 117,
+ 'scheduler/enqueued/memory': 117,
+ 'start_time': datetime.datetime(2021, 3, 21, 18, 52, 53, 599028)}
+2021-03-21 22:53:32 [scrapy.core.engine] INFO: Spider closed (finished)
+2021-03-21 22:53:53 [scrapy.extensions.logstats] INFO: Crawled 188 pages (at 188 pages/min), scraped 178 items (at 178 items/min)
+2021-03-21 22:54:53 [scrapy.extensions.logstats] INFO: Crawled 380 pages (at 192 pages/min), scraped 369 items (at 191 items/min)
+2021-03-21 22:55:41 [scrapy.core.engine] INFO: Closing spider (finished)
+2021-03-21 22:55:41 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 315828,
+ 'downloader/request_count': 533,
+ 'downloader/request_method_count/GET': 533,
+ 'downloader/response_bytes': 93847552,
+ 'downloader/response_count': 533,
+ 'downloader/response_status_count/200': 533,
+ 'elapsed_time_seconds': 167.760497,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2021, 3, 21, 18, 55, 41, 307660),
+ 'item_scraped_count': 522,
+ 'log_count/INFO': 40,
+ 'request_depth_max': 11,
+ 'response_received_count': 533,
+ 'scheduler/dequeued': 533,
+ 'scheduler/dequeued/memory': 533,
+ 'scheduler/enqueued': 533,
+ 'scheduler/enqueued/memory': 533,
+ 'start_time': datetime.datetime(2021, 3, 21, 18, 52, 53, 547163)}
+2021-03-21 22:55:41 [scrapy.core.engine] INFO: Spider closed (finished)

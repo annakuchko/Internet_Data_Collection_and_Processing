@@ -1,0 +1,2 @@
+2021-03-19 20:42:23 [scrapy.utils.log] INFO: Scrapy 2.4.1 started (bot: jobparser)
+2021-03-19 20:42:23 [scrapy.utils.log] INFO: Versions: lxml 4.6.2.0, libxml2 2.9.10, cssselect 1.0.3, parsel 1.5.2, w3lib 1.21.0, Twisted 21.2.0, Python 3.8.3 (default, Jul  2 2020, 17:30:36) [MSC v.1916 64 bit (AMD64)], pyOpenSSL 20.0.1 (OpenSSL 1.1.1j  16 Feb 2021), cryptography 3.3.1, Platform Windows-10-10.0.19041-SP0
