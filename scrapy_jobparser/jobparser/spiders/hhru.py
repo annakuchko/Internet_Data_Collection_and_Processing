@@ -1,14 +1,6 @@
 import scrapy
 from scrapy.http import HtmlResponse
 from jobparser.items import JobparserItem
-# *Наименование вакансии
-# *Зарплата от
-# *Зарплата до
-# *Ссылку на саму вакансию
-
-# *Сайт откуда собрана вакансия
-# И складывал все записи в БД(любую)
-
 
 class HhruSpider(scrapy.Spider):
     name = 'hhru'
@@ -49,7 +41,7 @@ class HhruSpider(scrapy.Spider):
             "//*[contains(@class, 'vacancy-salary')]/span/text()"
             ).extract()
         url = response.url
-        # print('')
+        
         yield JobparserItem(title = title, salary = salary, url = url)
         pass
         
