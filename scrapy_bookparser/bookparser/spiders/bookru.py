@@ -24,8 +24,6 @@ class BookruSpider(scrapy.Spider):
         
         if next_page:
             yield response.follow(next_page, callback=self.parse)
-        
-        pass
     
     def parse_books(self, response: HtmlResponse):
         print('$$')
@@ -64,4 +62,3 @@ class BookruSpider(scrapy.Spider):
                              new_price = new_price,
                              old_price = old_price,
                              book_rating = book_rating)
-        pass
