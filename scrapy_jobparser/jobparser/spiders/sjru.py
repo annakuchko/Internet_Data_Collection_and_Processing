@@ -31,8 +31,6 @@ class SjruSpider(scrapy.Spider):
         if next_page:
             yield response.follow(next_page, callback=self.parse)
         
-        pass
-    
     def parse_vacancies(self, response: HtmlResponse):
         title = response.xpath(
             "//h1/text()"
@@ -41,6 +39,7 @@ class SjruSpider(scrapy.Spider):
             '//*[contains(@class, "_1OuF_ ZON4b")]//text()'
             ).extract()
         url = response.url
-        yield JobparserItem(title = title, salary = salary, url = url)
-        pass
+        yield JobparserItem(title=title, 
+                            salary=salary,
+                            url=url)
         
