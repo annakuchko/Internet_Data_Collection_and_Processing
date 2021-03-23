@@ -55,9 +55,9 @@ class BookruSpider(scrapy.Spider):
             ).extract()[0]
         print('Rating: ', book_rating)
         
-        yield BookparserItem(title = title, 
-                             authors = authors,
-                             url = url,
-                             new_price = new_price,
-                             old_price = old_price,
-                             book_rating = book_rating)
+        yield BookparserItem(title=title, 
+                             authors=authors,
+                             url=url,
+                             new_price=new_price,
+                             old_price=old_price,
+                             book_rating=book_rating)
