@@ -30,8 +30,6 @@ class HhruSpider(scrapy.Spider):
             ).get()
         if next_page:
             yield response.follow(next_page, callback=self.parse)
-        
-        pass
     
     def parse_vacancies(self, response: HtmlResponse):
         title = response.xpath(
@@ -42,6 +40,6 @@ class HhruSpider(scrapy.Spider):
             ).extract()
         url = response.url
         
-        yield JobparserItem(title = title, salary = salary, url = url)
-        pass
-        
+        yield JobparserItem(title=title,
+                            salary=salary, 
+                            url=url)
