@@ -23,8 +23,6 @@ class LabruSpider(scrapy.Spider):
         
         if next_page:
             yield response.follow(next_page, callback=self.parse)
-        
-        pass
     
     def parse_books(self, response: HtmlResponse):
         title = response.xpath(
@@ -58,11 +56,10 @@ class LabruSpider(scrapy.Spider):
             ).extract()[0]
         print('Rating: ', book_rating)
         
-        yield BookparserItem(title = title, 
-                             authors = authors,
-                             url = url,
-                             new_price = new_price,
-                             old_price = old_price,
-                             book_rating = book_rating)
-        pass
+        yield BookparserItem(title=title, 
+                             authors=authors,
+                             url=url,
+                             new_price=new_price,
+                             old_price=old_price,
+                             book_rating=book_rating)
 
