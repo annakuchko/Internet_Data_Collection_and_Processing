@@ -26,7 +26,6 @@ class BookruSpider(scrapy.Spider):
             yield response.follow(next_page, callback=self.parse)
     
     def parse_books(self, response: HtmlResponse):
-        print('$$')
         title = response.xpath(
             '//*[contains(@itemprop, "name")]/text()'
             ).extract()[0]
