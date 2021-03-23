@@ -15,5 +15,3 @@ class BookparserItem(scrapy.Item):
     new_price = scrapy.Field()
     old_price = scrapy.Field()
     book_rating = scrapy.Field()
-    
-    pass
