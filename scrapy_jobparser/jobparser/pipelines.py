@@ -18,8 +18,5 @@ class JobparserPipeline:
     def process_item(self, item, spider):
             
         collection = self.db[spider.name]
-        collection.replace_one({"url": item['url']}, item, True)
-        # if len(item['salary']) > 1:
-        #     item['salary_max'] = item['salary'][3]
-        
+        collection.replace_one({"url": item['url']}, item, True)        
         return item
