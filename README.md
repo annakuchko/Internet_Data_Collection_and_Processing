@@ -1,7 +1,8 @@
 # Internet_Data_Collection_and_Processing
 Methods for collecting and processing data from the Internet: parsing, scraping, crawling  
-  
-Required structure:  
+Data is collected to the local MongoDB.
+
+Required structure (for proper methods usage):  
 <pre> 
 Internet_Data_Collection_and_Processing  
 │  
